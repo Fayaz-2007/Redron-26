@@ -1,13 +1,13 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import { Github, Linkedin, Twitter } from "lucide-react";
+import TeamCard from "./TeamCard";
 
 const team = [
-  { name: "Arjun Mehta", role: "Lead Organizer", initials: "AM" },
-  { name: "Priya Sharma", role: "Technical Head", initials: "PS" },
-  { name: "Rohan Gupta", role: "Design Lead", initials: "RG" },
-  { name: "Sneha Iyer", role: "Events Coordinator", initials: "SI" },
-  { name: "Karan Singh", role: "Marketing Head", initials: "KS" },
-  { name: "Ananya Das", role: "Sponsorship Lead", initials: "AD" },
+  { name: "Arjun Mehta", role: "Lead Organizer", image: "https://i.pravatar.cc/150?img=11" },
+  { name: "Priya Sharma", role: "Technical Head", image: "https://i.pravatar.cc/150?img=5" },
+  { name: "Rohan Gupta", role: "Design Lead", image: "https://i.pravatar.cc/150?img=12" },
+  { name: "Sneha Iyer", role: "Events Coordinator", image: "https://i.pravatar.cc/150?img=9" },
+  { name: "Karan Singh", role: "Marketing Head", image: "https://i.pravatar.cc/150?img=14" },
+  { name: "Ananya Das", role: "Sponsorship Lead", image: "https://i.pravatar.cc/150?img=25" },
 ];
 
 const TeamSection = () => {
@@ -24,25 +24,14 @@ const TeamSection = () => {
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
           {team.map((member, i) => (
-            <div
+            <TeamCard
               key={member.name}
-              className={`group text-center transition-all duration-500 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
-              style={{ transitionDelay: `${i * 100}ms` }}
-            >
-              <div className="relative w-24 h-24 mx-auto mb-4">
-                <div className="w-24 h-24 rounded-full bg-gradient-to-br from-primary/20 to-secondary/20 border-2 border-primary/30 group-hover:border-primary/60 transition-all flex items-center justify-center group-hover:box-glow-red">
-                  <span className="font-display text-2xl text-primary">{member.initials}</span>
-                </div>
-                {/* Hover social links */}
-                <div className="absolute inset-0 rounded-full bg-background/90 flex items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
-                  <a href="#" className="text-primary hover:text-accent transition-colors"><Github className="w-4 h-4" /></a>
-                  <a href="#" className="text-secondary hover:text-accent transition-colors"><Linkedin className="w-4 h-4" /></a>
-                  <a href="#" className="text-primary hover:text-accent transition-colors"><Twitter className="w-4 h-4" /></a>
-                </div>
-              </div>
-              <h4 className="font-display text-lg text-foreground">{member.name}</h4>
-              <p className="font-body text-xs text-muted-foreground">{member.role}</p>
-            </div>
+              name={member.name}
+              role={member.role}
+              image={member.image}
+              delay={i * 100}
+              visible={visible}
+            />
           ))}
         </div>
       </div>
