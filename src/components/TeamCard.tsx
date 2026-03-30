@@ -26,11 +26,7 @@ const TeamCard = ({ name, role, image, delay, visible }: TeamCardProps) => {
           />
         </div>
         {/* Hover social links */}
-        <div className="absolute inset-0 rounded-full bg-background/80 backdrop-blur-sm flex items-center justify-center gap-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          <a href="#" className="text-primary hover:text-accent transition-colors"><Github className="w-4 h-4" /></a>
-          <a href="#" className="text-secondary hover:text-accent transition-colors"><Linkedin className="w-4 h-4" /></a>
-          <a href="#" className="text-primary hover:text-accent transition-colors"><Twitter className="w-4 h-4" /></a>
-        </div>
+        
       </div>
       <h4 className="font-display text-lg text-foreground">{name}</h4>
       <p className="font-body text-xs text-muted-foreground">{role}</p>

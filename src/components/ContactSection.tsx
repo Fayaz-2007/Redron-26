@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import { Send, Instagram, Twitter, Linkedin, Youtube } from "lucide-react";
+import { Send, Instagram, Linkedin, Mail } from "lucide-react";
 
 const ContactSection = () => {
   const { ref, visible } = useScrollAnimation();
@@ -61,10 +61,17 @@ const ContactSection = () => {
           </form>
 
           <div className="flex justify-center gap-6 mt-10">
-            {[Instagram, Twitter, Linkedin, Youtube].map((Icon, i) => (
+            {[
+              { Icon: Instagram, href: "https://instagram.com/your_handle", label: "Instagram" },
+              { Icon: Linkedin, href: "https://linkedin.com/in/your_profile", label: "LinkedIn" },
+              { Icon: Mail, href: "mailto:your_email@example.com", label: "Email ID" },
+            ].map(({ Icon, href, label }, i) => (
               <a
                 key={i}
-                href="#"
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                title={label}
                 className="w-10 h-10 rounded-full bg-card border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/50 hover:box-glow-red transition-all"
               >
                 <Icon className="w-4 h-4" />

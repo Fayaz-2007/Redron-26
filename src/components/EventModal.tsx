@@ -14,6 +14,7 @@ export interface EventData {
   time: string;
   teamSize: string;
   fee: string;
+  registrationLink?: string;
 }
 
 interface EventModalProps {
@@ -46,9 +47,20 @@ const EventModal = ({ event, open, onClose }: EventModalProps) => {
               <h2 className="font-display text-4xl sm:text-5xl text-primary text-glow-red">
                 {event.title}
               </h2>
-              <button className="mt-4 px-8 py-3 rounded-lg bg-primary text-primary-foreground font-body text-sm font-bold uppercase tracking-wider hover:bg-primary/90 transition-colors box-glow-red">
-                Register Now
-              </button>
+              {event.registrationLink ? (
+                <a 
+                  href={event.registrationLink} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="mt-4 inline-block px-8 py-3 rounded-lg bg-primary text-primary-foreground font-body text-sm font-bold uppercase tracking-wider hover:bg-primary/90 transition-colors box-glow-red"
+                >
+                  Register Now
+                </a>
+              ) : (
+                <button className="mt-4 px-8 py-3 rounded-lg bg-primary text-primary-foreground font-body text-sm font-bold uppercase tracking-wider hover:bg-primary/90 transition-colors box-glow-red cursor-not-allowed opacity-50">
+                  Registration Opening Soon
+                </button>
+              )}
             </div>
 
             <div>
@@ -59,7 +71,7 @@ const EventModal = ({ event, open, onClose }: EventModalProps) => {
             </div>
 
             <div>
-              <h4 className="font-tech text-xs tracking-widest uppercase text-secondary mb-3">Rules &amp; Guidelines</h4>
+              <h4 className="font-tech text-xs tracking-widest uppercase text-secondary mb-3">Rounds</h4>
               <ol className="space-y-2">
                 {event.rules.map((rule, i) => (
                   <li key={i} className="flex gap-3 font-body text-sm text-muted-foreground">

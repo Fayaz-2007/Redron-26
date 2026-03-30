@@ -2,8 +2,8 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import TeamCard from "./TeamCard";
 
 const team = [
-  { name: "Arjun Mehta", role: "Lead Organizer", image: "https://i.pravatar.cc/150?img=11" },
-  { name: "Priya Sharma", role: "Technical Head", image: "https://i.pravatar.cc/150?img=5" },
+  { name: "R Dhinesh Ragavendar", role: "Vice President", image: "/public/team/person.png" },
+  { name: "Niranjan", role: "Design Head", image: "https://i.pravatar.cc/150?img=5" },
   { name: "Rohan Gupta", role: "Design Lead", image: "https://i.pravatar.cc/150?img=12" },
   { name: "Sneha Iyer", role: "Events Coordinator", image: "https://i.pravatar.cc/150?img=9" },
   { name: "Karan Singh", role: "Marketing Head", image: "https://i.pravatar.cc/150?img=14" },

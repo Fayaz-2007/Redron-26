@@ -2,9 +2,9 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { Target, Eye, Zap } from "lucide-react";
 
 const cards = [
-  { icon: Target, title: "Our Mission", desc: "Igniting innovation and creativity through electrifying competitions, workshops, and experiences that push boundaries." },
-  { icon: Eye, title: "Our Vision", desc: "Building a community of fearless creators who dare to dream big and swing higher than ever before." },
-  { icon: Zap, title: "Our Purpose", desc: "Connecting talent with opportunity through a platform that celebrates skill, teamwork, and the hero in everyone." },
+  { icon: Target, title: "Our Mission", desc: "To educate youth about HIV/AIDS and related health issues, remove myths, and promote healthy habits and voluntary blood donation." },
+  { icon: Eye, title: "Our Vision", desc: "To build an aware and responsible student community that actively prevents health risks and supports a healthier society." },
+  { icon: Zap, title: "Our Purpose", desc: "To create peer educators who spread awareness, reduce stigma, and encourage care and support for people affected by HIV/AIDS." },
 ];
 
 const AboutSection = () => {
@@ -18,8 +18,7 @@ const AboutSection = () => {
           <span className="font-tech text-xs tracking-[0.3em] uppercase text-secondary text-glow-blue">About</span>
           <h2 className="font-display text-5xl sm:text-7xl text-primary text-glow-red mt-2">WHAT IS REDRON?</h2>
           <p className="font-body text-lg text-muted-foreground mt-4 max-w-2xl mx-auto">
-            REDRON is the flagship annual techno-cultural event by RRC — a high-energy celebration of talent, technology, and teamwork. 
-            Inspired by the spirit of heroes, we bring together the brightest minds for two days of unforgettable experiences.
+            The Red Ribbon Club (RRC) is a Government of India initiative that spreads awareness about HIV/AIDS and promotes healthy lifestyles among students. At SVCE, the club has been active since 2006, engaging students through programs, awareness campaigns, and community-driven activities.
           </p>
         </div>
 
