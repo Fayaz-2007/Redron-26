@@ -27,7 +27,7 @@ const events: EventData[] = [
     title: "Myth vs Fact",
     tag: "RRC",
     date: "April 2, 2026",
-    image: "/public/team/myth-vs-fact.png",
+    image: "/team/myth-vs-fact.png",
     description:
       "Myth vs. Fact is a high-energy, team-based coordination event that challenges participants’ health awareness, critical thinking, and teamwork under pressure. Each team of four takes on specialized roles and must navigate through the “Zone of Misinformation” by correctly identifying health-related statements as myths or facts. The event combines physical balance with mental accuracy, where every correct answer moves the team forward, and every mistake increases the difficulty. Speed, coordination, and knowledge are key as teams race to reach the “Healthy Society” finish line.",
     rules: [
@@ -46,7 +46,7 @@ const events: EventData[] = [
     title: "Health Quest",
     tag: "RRC",
     date: "April 2, 2026",
-    image: "/public/team/health-quest.png",
+    image: "/team/health-quest.png",
     description:
       "Health Quest is an interactive, game-based team event that combines fun, strategy, and health awareness. Played on a large board, teams of three work together where one member moves across the board while the other two support by answering questions and making decisions. Instead of traditional gameplay, participants encounter positive, negative, and challenge-based boxes that influence their progress. The event promotes awareness of healthy practices and risky behaviors while encouraging teamwork, quick thinking, and active participation in an engaging and educational environment.",
     rules: [
@@ -65,7 +65,7 @@ const events: EventData[] = [
     title: "HEART BEAT",
     tag: "RRC",
     date: "April 2, 2026",
-    image: "/public/team/heart-beat.png",
+    image: "/team/heart-beat.png",
     description:
       "Heartbeat Challenge is an exciting, high-energy team event that combines fun, awareness, and teamwork into one engaging experience. Each team of 3–4 members is given a balloon representing their “heartbeat,” symbolizing coordination and shared responsibility. As teams progress through multiple rounds, they must protect their heartbeat while tackling challenges that test both mental sharpness and physical coordination. With constant pressure to keep the balloon safe, the event encourages communication, strategy, and unity in a lively and competitive environment.",
     rules: [
