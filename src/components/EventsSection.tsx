@@ -8,7 +8,7 @@ const events: EventData[] = [
     title: "SOLVE AND ESCAPE",
     tag: "RRC",
     date: "April 2, 2026",
-    image: "/public/team/solve-and-escape.png",
+    image: "/team/solve-and-escape.png",
     description:
       "Solve and Escape is a fast-paced team event where groups of four tackle fun yet challenging tasks like puzzles, riddles, pattern recognition, and visual problems to test their logic, observation, and quick decision-making skills. Conducted in two rounds, participants solve tasks individually to unlock parts of a hidden sentence, which must be combined and correctly arranged at the end. The event is completely time-based, making speed, accuracy, and teamwork the key to winning while ensuring an engaging and competitive experience.",
     rules: [
