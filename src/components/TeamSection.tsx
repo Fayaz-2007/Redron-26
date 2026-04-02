@@ -2,9 +2,9 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import TeamCard from "./TeamCard";
 
 const team = [
-  { name: "R Dhinesh Ragavendar", role: "Vice President", image: "/public/team/person.png" },
+  { name: "R Dhinesh Ragavendar", role: "Vice President", image: "/public/team/dinesh.jpeg" },
   { name: "Niranjan", role: "Design Head", image: "https://i.pravatar.cc/150?img=5" },
-  { name: "Rohan Gupta", role: "Design Lead", image: "https://i.pravatar.cc/150?img=12" },
+  { name: "Honey", role: "Vice President", image: "/public/team/honey.jpeg" },
   { name: "Sneha Iyer", role: "Events Coordinator", image: "https://i.pravatar.cc/150?img=9" },
   { name: "Karan Singh", role: "Marketing Head", image: "https://i.pravatar.cc/150?img=14" },
   { name: "Ananya Das", role: "Sponsorship Lead", image: "https://i.pravatar.cc/150?img=25" },

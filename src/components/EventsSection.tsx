@@ -21,7 +21,7 @@ const events: EventData[] = [
     time: "10:00 AM",
     teamSize: "1–4 members",
     fee: "FREE",
-    registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSf.../viewform",
+    registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSeigT0q5QDJ1NBxQiAzRdrwLUy_lWT69lmYcPZxo1W4KiElng/viewform?usp=header",
   },
   {
     title: "Myth vs Fact",
@@ -40,7 +40,7 @@ const events: EventData[] = [
     time: "10:00 AM",
     teamSize: "1–4 members",
     fee: "FREE",
-    registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSf.../viewform",
+    registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSdoyYOfJqMp_umRC23ISpcXLhGWLoDH3L6hpOAkK7P4cz-a_A/viewform?usp=publish-editor",
   },
   {
     title: "Health Quest",
@@ -59,7 +59,7 @@ const events: EventData[] = [
     time: "10:00 AM",
     teamSize: "1–4 members",
     fee: "FREE",
-    registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSf.../viewform",
+    registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSckffAw6osIqoDCd_rrE7gcP013dmv9Q4N3lH16zry5nO36tg/viewform?usp=publish-editor",
   },
   {
     title: "HEART BEAT",
@@ -78,7 +78,7 @@ const events: EventData[] = [
     time: "10:00 AM",
     teamSize: "1–4 members",
     fee: "FREE",
-    registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSf.../viewform",
+    registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSfvFECo_TtaoOJ9rkt5RxDNSK1K5R0XjYpqKgKJ0HWYJHG0eQ/viewform?usp=publish-editor",
   },
 ];
 
