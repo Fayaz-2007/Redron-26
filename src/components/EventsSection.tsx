@@ -40,7 +40,7 @@ const events: EventData[] = [
     time: "10:00 AM",
     teamSize: "1–4 members",
     fee: "FREE",
-    registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSdoyYOfJqMp_umRC23ISpcXLhGWLoDH3L6hpOAkK7P4cz-a_A/viewform?usp=publish-editor",
+    registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSdoyYOfJqMp_umRC23ISpcXLhGWLoDH3L6hpOAkK7P4cz-a_A/viewform?usp=header",
   },
   {
     title: "Health Quest",
