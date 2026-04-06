@@ -2,12 +2,16 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import TeamCard from "./TeamCard";
 
 const team = [
+  { name: "Hishanth", role: "President", image: "/public/team/giridharan.jpeg" },
   { name: "R Dhinesh Ragavendar", role: "Vice President", image: "/public/team/dinesh.jpeg" },
-  { name: "Niranjan", role: "Design Head", image: "https://i.pravatar.cc/150?img=5" },
   { name: "Honey", role: "Vice President", image: "/public/team/honey.jpeg" },
-  { name: "Sneha Iyer", role: "Events Coordinator", image: "https://i.pravatar.cc/150?img=9" },
-  { name: "Karan Singh", role: "Marketing Head", image: "https://i.pravatar.cc/150?img=14" },
-  { name: "Ananya Das", role: "Sponsorship Lead", image: "https://i.pravatar.cc/150?img=25" },
+  { name: "Niranjan", role: "Event Coordinator", image: "/public/team/niranjan.jpeg" },
+  { name: "Sakthi Purushothaman", role: "Event Coordinator", image: "/public/team/sakthi.jpeg" },
+  { name: "Yuvitha", role: "Event Coordinator", image: "/public/team/yuvitha.jpeg" },
+  { name: "Sanjay", role: "Event Coordinator", image: "/public/team/sanjay.jpeg" },
+  { name: "Ashwin Kumar", role: "Event Coordinator", image: "/public/team/ashwin.jpeg" },
+  { name: "Fayaz Ahmed", role: "Web Master", image: "/public/team/fayaz.jpeg" },
+  { name: "Tharun", role: "Video Editor", image: "/public/team/tharun.jpeg" },
 ];
 
 const TeamSection = () => {
